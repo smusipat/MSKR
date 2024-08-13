@@ -15,7 +15,7 @@ def search_google_jobs(role, location=None):
     return job_links
 
 role = "Product Manager"
-location = "hartford"
+location = "new york"
 job_links = search_google_jobs(role, location)
 for link in job_links:
     print(link)
